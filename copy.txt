@@ -1,0 +1,4 @@
+sudo nvim /etc/pacman.conf
+
+Color
+ILoveCandy
