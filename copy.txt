@@ -4,7 +4,7 @@ Color
 ILoveCandy
 
 
-Asterizcos en el sudo
+Asteriscos en el sudo
 sudo visudo
 Defaults env_reset,pwfeedback
 
