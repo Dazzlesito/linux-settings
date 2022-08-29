@@ -2,3 +2,10 @@ sudo nvim /etc/pacman.conf
 
 Color
 ILoveCandy
+
+
+Asterizcos en el sudo
+sudo visudo
+Defaults env_reset,pwfeedback
+
+
