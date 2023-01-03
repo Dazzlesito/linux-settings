@@ -23,3 +23,11 @@ sudo python -m pip install --user --upgrade pynvim
 
 grep dazzlel /etc/passwd
 chsh -s /bin/fish dazzlel
+
+theme sweet
+clipboard
+virtual desktops
+spectacle
+internet configuration
+mouse
+foto de perfil
