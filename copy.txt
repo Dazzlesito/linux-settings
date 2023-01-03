@@ -8,4 +8,18 @@ Asteriscos en el sudo
 sudo visudo
 Defaults env_reset,pwfeedback
 
+sudo systemctl status bluetooth
+sudo systemctl enable bluetooth
+sudo systemctl start bluetooth
+
+cp /etc/default/grub /etc/default/grub.bak
 sudo nvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+yay -S paru-bin 
+paru -S nerd-fonts-cascadia-code nerd-fonts-mononoki noto-fonts-emoji aspell-en aspell-es anki notion-app visual-studio-code-bin exa bat python-pip nodejs npm tmux starship fish alacritty neovim google-chrome
+
+sudo python -m pip install --user --upgrade pynvim
+
+grep dazzlel /etc/passwd
+chsh -s /bin/fish dazzlel
